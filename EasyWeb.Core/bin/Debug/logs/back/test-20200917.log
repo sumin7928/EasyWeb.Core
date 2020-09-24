@@ -1,0 +1,28 @@
+2020-09-17 16:28:58.546 [1] INFO NLogConfiguration - test log -- apply nlog 
+2020-09-17 16:29:05.507 [1] FATAL Diagnostics - Application startup exception System.ArgumentNullException: Value cannot be null. (Parameter 'logger')
+   at Microsoft.Extensions.Logging.LoggerExtensions.Log(ILogger logger, LogLevel logLevel, EventId eventId, Exception exception, String message, Object[] args)
+   at Microsoft.Extensions.Logging.LoggerExtensions.LogInformation(ILogger logger, String message, Object[] args)
+   at EasyWeb.Core.Startup.Configure(IApplicationBuilder app, IWebHostEnvironment env) in D:\projects\EasyWeb.Core\EasyWeb.Core\Startup.cs:line 52
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__2(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2020-09-17 16:29:45.951 [1] INFO NLogConfiguration - test log -- apply nlog 
+2020-09-17 17:42:08.003 [1] INFO NLogConfiguration - test log -- apply nlog 
+2020-09-17 17:42:08.647 [1] INFO Lifetime - Now listening on: https://localhost:5001 
+2020-09-17 17:42:08.655 [1] INFO Lifetime - Now listening on: http://localhost:5000 
+2020-09-17 17:42:08.655 [1] INFO Lifetime - Application started. Press Ctrl+C to shut down. 
+2020-09-17 17:42:08.655 [1] INFO Lifetime - Hosting environment: Development 
+2020-09-17 17:42:08.676 [1] INFO Lifetime - Content root path: D:\projects\EasyWeb.Core\EasyWeb.Core 
+2020-09-17 18:25:11.680 [1] INFO NLogConfiguration - test log -- apply nlog 
+2020-09-17 18:25:12.358 [1] INFO Lifetime - Now listening on: https://localhost:5001 
+2020-09-17 18:25:12.358 [1] INFO Lifetime - Now listening on: http://localhost:5000 
+2020-09-17 18:25:12.384 [1] INFO Lifetime - Application started. Press Ctrl+C to shut down. 
+2020-09-17 18:25:12.389 [1] INFO Lifetime - Hosting environment: Development 
+2020-09-17 18:25:12.389 [1] INFO Lifetime - Content root path: D:\projects\EasyWeb.Core\EasyWeb.Core 
+2020-09-17 18:26:29.418 [1] INFO NLogConfiguration - test log -- apply nlog 
+2020-09-17 18:31:08.500 [1] INFO NLogConfiguration - test log -- apply nlog 

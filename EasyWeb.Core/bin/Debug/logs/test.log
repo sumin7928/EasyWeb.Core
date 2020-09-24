@@ -1,0 +1,37 @@
+2020-09-18 13:55:31.431 [1] INFO NLogConfiguration - test log -- apply nlog 
+2020-09-18 13:56:23.033 [1] INFO NLogConfiguration - test log -- apply nlog 
+2020-09-18 16:17:31.355 [1] INFO NLogConfiguration - test log -- apply nlog 
+2020-09-18 16:18:51.425 [1] INFO NLogConfiguration - test log -- apply nlog 
+2020-09-18 16:20:54.463 [1] INFO NLogConfiguration - test log -- apply nlog 
+2020-09-18 16:21:32.407 [1] INFO NLogConfiguration - test log -- apply nlog 
+2020-09-18 17:07:47.461 [1] INFO NLogConfiguration - test log -- apply nlog 
+2020-09-18 17:09:58.606 [1] INFO NLogConfiguration - test log -- apply nlog 
+2020-09-18 17:10:46.791 [1] INFO NLogConfiguration - test log -- apply nlog 
+2020-09-18 17:10:48.627 [7] ERROR Kestrel - Connection id "0HM2RL9CN3LDQ", Request id "0HM2RL9CN3LDQ:00000001": An unhandled exception was thrown by the application. System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_1.<UseMiddleware>b__2(HttpContext context)
+   at EasyWeb.Core.Middleware.WebLogMiddleware.FormatResponse(HttpContext context) in D:\projects\EasyWeb.Core\EasyWeb.Core\Middleware\WebLogMiddleware.cs:line 53
+   at EasyWeb.Core.Middleware.WebLogMiddleware.Invoke(HttpContext context) in D:\projects\EasyWeb.Core\EasyWeb.Core\Middleware\WebLogMiddleware.cs:line 28
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2020-09-18 17:10:53.646 [12] ERROR Kestrel - Connection id "0HM2RL9CN3LDQ", Request id "0HM2RL9CN3LDQ:00000003": An unhandled exception was thrown by the application. System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Builder.UseWhenExtensions.<>c__DisplayClass0_1.<UseWhen>b__1(HttpContext context)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Hosting.HostingApplication.ProcessRequestAsync(Context context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2020-09-18 17:10:59.691 [11] ERROR Kestrel - Connection id "0HM2RL9CN3LDQ", Request id "0HM2RL9CN3LDQ:00000005": An unhandled exception was thrown by the application. System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_1.<UseMiddleware>b__2(HttpContext context)
+   at EasyWeb.Core.Middleware.WebLogMiddleware.FormatResponse(HttpContext context) in D:\projects\EasyWeb.Core\EasyWeb.Core\Middleware\WebLogMiddleware.cs:line 53
+   at EasyWeb.Core.Middleware.WebLogMiddleware.Invoke(HttpContext context) in D:\projects\EasyWeb.Core\EasyWeb.Core\Middleware\WebLogMiddleware.cs:line 28
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2020-09-18 17:11:18.236 [1] INFO NLogConfiguration - test log -- apply nlog 
+2020-09-18 17:12:02.607 [1] INFO NLogConfiguration - test log -- apply nlog 
+2020-09-18 17:22:58.486 [1] INFO NLogConfiguration - test log -- apply nlog 
+2020-09-18 17:26:18.155 [1] INFO NLogConfiguration - test log -- apply nlog 
+2020-09-18 17:28:04.333 [1] INFO NLogConfiguration - test log -- apply nlog 

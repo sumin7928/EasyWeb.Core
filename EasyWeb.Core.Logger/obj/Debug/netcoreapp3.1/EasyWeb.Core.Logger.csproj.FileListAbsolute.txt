@@ -1,0 +1,9 @@
+D:\projects\EasyWeb.Core\EasyWeb.Core.Logger\bin\Debug\netcoreapp3.1\EasyWeb.Core.Logger.deps.json
+D:\projects\EasyWeb.Core\EasyWeb.Core.Logger\bin\Debug\netcoreapp3.1\EasyWeb.Core.Logger.dll
+D:\projects\EasyWeb.Core\EasyWeb.Core.Logger\obj\Debug\netcoreapp3.1\EasyWeb.Core.Logger.csprojAssemblyReference.cache
+D:\projects\EasyWeb.Core\EasyWeb.Core.Logger\obj\Debug\netcoreapp3.1\EasyWeb.Core.Logger.AssemblyInfoInputs.cache
+D:\projects\EasyWeb.Core\EasyWeb.Core.Logger\obj\Debug\netcoreapp3.1\EasyWeb.Core.Logger.AssemblyInfo.cs
+D:\projects\EasyWeb.Core\EasyWeb.Core.Logger\bin\Debug\netcoreapp3.1\EasyWeb.Core.Logger.pdb
+D:\projects\EasyWeb.Core\EasyWeb.Core.Logger\obj\Debug\netcoreapp3.1\EasyWeb.Core.Logger.csproj.CoreCompileInputs.cache
+D:\projects\EasyWeb.Core\EasyWeb.Core.Logger\obj\Debug\netcoreapp3.1\EasyWeb.Core.Logger.dll
+D:\projects\EasyWeb.Core\EasyWeb.Core.Logger\obj\Debug\netcoreapp3.1\EasyWeb.Core.Logger.pdb

@@ -1,0 +1,22 @@
+2020-09-17 17:38:47.043 +09:00 [INF] test log
+2020-09-17 17:38:47.868 +09:00 [INF] Now listening on: https://localhost:5001
+2020-09-17 17:38:47.871 +09:00 [INF] Now listening on: http://localhost:5000
+2020-09-17 17:38:47.871 +09:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-17 17:38:47.871 +09:00 [INF] Hosting environment: Development
+2020-09-17 17:38:47.871 +09:00 [INF] Content root path: D:\projects\EasyWeb.Core\EasyWeb.Core
+2020-09-17 17:38:48.821 +09:00 [INF] Request starting HTTP/2 GET https://localhost:5001/weatherforecast  
+2020-09-17 17:38:48.843 +09:00 [INF] Executing endpoint 'EasyWeb.Core.Controllers.WeatherForecastController.Get (EasyWeb.Core)'
+2020-09-17 17:38:48.881 +09:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[EasyWeb.Core.WeatherForecast] Get() on controller EasyWeb.Core.Controllers.WeatherForecastController (EasyWeb.Core).
+2020-09-17 17:38:48.886 +09:00 [INF] Executing ObjectResult, writing value of type 'EasyWeb.Core.WeatherForecast[]'.
+2020-09-17 17:38:48.902 +09:00 [INF] Executed action EasyWeb.Core.Controllers.WeatherForecastController.Get (EasyWeb.Core) in 17.1674ms
+2020-09-17 17:38:48.904 +09:00 [INF] Executed endpoint 'EasyWeb.Core.Controllers.WeatherForecastController.Get (EasyWeb.Core)'
+2020-09-17 17:38:48.905 +09:00 [INF] Request finished in 86.8121ms 200 application/json; charset=utf-8
+2020-09-17 17:38:48.984 +09:00 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.ico  
+2020-09-17 17:38:48.985 +09:00 [INF] Request finished in 0.7953ms 404 
+2020-09-17 17:39:29.632 +09:00 [INF] test log
+2020-09-17 17:39:31.429 +09:00 [INF] Now listening on: https://localhost:5001
+2020-09-17 17:39:31.431 +09:00 [INF] Now listening on: http://localhost:5000
+2020-09-17 17:39:31.432 +09:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-17 17:39:31.432 +09:00 [INF] Hosting environment: Development
+2020-09-17 17:39:31.432 +09:00 [INF] Content root path: D:\projects\EasyWeb.Core\EasyWeb.Core
+2020-09-17 17:39:32.423 +09:00 [INF] Application is shutting down...
